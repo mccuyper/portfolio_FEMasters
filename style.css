@@ -32,6 +32,7 @@ section {
 .container p {
     color: white;
     font-size: 1em;
+    margin-bottom: 50px;
 }
 .container h2 {
     font-size: 2.5em;
@@ -47,6 +48,7 @@ section {
     width: 100%;
     right: -150px;
     color: white;
+    text-transform: uppercase;
 }
 
 
@@ -230,6 +232,7 @@ nav a {
 nav li:hover, footer ul li:hover {    
     background-color: orange;
     color: white;
+    cursor: default;
 }
 
 .navbar {
@@ -279,7 +282,8 @@ nav li:hover, footer ul li:hover {
 }
 
 .card:hover .circle:before {
-    background: #2c3af5;
+    /* background: #2c3af5; */
+    background: orange;
     clip-path: circle(400px at center);
 }
 
