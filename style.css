@@ -192,18 +192,28 @@ span {
 
 
 /*---------social links --------*/
+footer {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    color: rgb(255, 255, 255); 
+    background-color: black;
+}
+i {
+    color: rgb(255, 255, 255);
+}
 
 
 /*--------------navbar--------------*/
 
-nav ul {
+nav ul, footer ul {
     list-style-type: none;
     text-align: center;
     padding: 0;
     margin: 0;
 }
 
-nav ul li {
+nav ul li,footer ul li {
     border: 2px solid orange;
     width: 8rem;
     margin-bottom: 0.5rem;
@@ -217,7 +227,7 @@ nav a {
     text-decoration: none;
 }
 
-nav li:hover {
+nav li:hover, footer ul li:hover {    
     background-color: orange;
     color: white;
 }
