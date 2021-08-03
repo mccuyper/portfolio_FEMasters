@@ -31,13 +31,14 @@ section {
 }
 .container p {
     color: white;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 50px;
 }
 .container h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
     color: orange;
+    text-align: center;
 }
 
 .intro {
@@ -282,7 +283,6 @@ nav li:hover, footer ul li:hover {
 }
 
 .card:hover .circle:before {
-    /* background: #2c3af5; */
     background: orange;
     clip-path: circle(400px at center);
 }
@@ -351,7 +351,7 @@ nav li:hover, footer ul li:hover {
     background: black;
     justify-content: center;
     align-items: center;
-    /* min-height: 100vh; */
+    
 }
 
 .form {
@@ -361,7 +361,6 @@ nav li:hover, footer ul li:hover {
 
 .form h2 {
     width: 100%;
-    /* color: #45f3ff; */
     color: rgb(255, 255, 255);
     font-size: 36px;
     text-align: center;
@@ -414,7 +413,6 @@ nav li:hover, footer ul li:hover {
     display: block;
     transition: 0.5s;
     pointer-events: none;
-    /* color: #45f3ff; */
 }
 
 .inputBox input:focus+.text,
@@ -429,7 +427,6 @@ nav li:hover, footer ul li:hover {
     display: block;
     width: 100%;
     height: 2px;
-    /* background: #45f3ff; */
     background: orange;
     transition: 0.5s;
     border-radius: 2px;
@@ -469,7 +466,6 @@ input[type='submit'] {
     padding: 7px 35px;
     cursor: pointer;
     outline: none;
-    /* background: #45f3ff; */
     background: orange;
     color: black;
     font-size: 18px;
